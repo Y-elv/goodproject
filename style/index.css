@@ -1,0 +1,170 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+nav {
+  display: flex;
+  padding: 1rem 5rem 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(36, 144, 216);
+  top: 0;
+  z-index: 999;
+  /* background-color: red; */
+}
+.logo {
+  width: 200px;
+  height: 100px;
+}
+.nav-links {
+  display: flex;
+  /* background: red; */
+  font-size: 1.8rem;
+  color: white;
+  list-style-type: none;
+  gap: 3rem;
+  align-items: center;
+  /* padding: 2rem; */
+}
+.nav-links .nav-list a:link,
+.nav-links .nav-list a:visited {
+  color: white;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+.nav-links .nav-list a:hover,
+.nav-links .nav-list a:active {
+  color: rgb(0, 89, 255);
+}
+.btn-red {
+  background-color: red;
+  color: white !important;
+  transition: all 0.3s;
+}
+.btn-container p{
+  color: #814d08;
+  font-size: medium;
+  
+}
+.about-container h1{
+  color: black;
+}
+.home-page{
+  background-color: #333;
+}
+.btn-container span{
+  color: #320881;
+}
+.btn-red:hover {
+  color: #814d08 
+   !important;
+  background-color: rgba(0, 247, 255, 0.988);
+}
+.btn {
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.8rem;
+}
+.home-page {
+  background-image: url("/sample/image/my.jpeg");
+  height: 82.3vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  
+}
+
+.home-page .content {
+  color: white;
+
+  /* text-align: center; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content h1 {
+  font-size: 4.8rem;
+}
+
+.btn-container {
+  display: block;
+  text-align: center;
+  /* background-color: red; */
+}
+.btn-green {
+  background-color: green;
+  color: white;
+}
+.about-container {
+  background: #fff;
+  padding: 10rem 3rem;
+}
+.about-container h1,
+.program-container h1 {
+  font-size: 4.8rem;
+  color:black;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  font-style: inherit;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.col a{
+  display: flex;
+  
+}
+.content-part p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin-bottom: 3rem;
+}
+.content-part {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.program-container {
+  background: #ddd;
+  padding: 10rem 3rem;
+}
+.card-container {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.8rem;
+}
+.card-one {
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.314);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.program-img {
+  width: 100%;
+}
+.program-desc {
+  padding: 2rem;
+}
+.program-desc p {
+  margin-bottom: 2rem;
+}
